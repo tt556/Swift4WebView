@@ -12,6 +12,8 @@
 		FF0F9BF8212B07F600854FD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0F9BF6212B07F600854FD6 /* Main.storyboard */; };
 		FF0F9BFA212B07FA00854FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0F9BF9212B07FA00854FD6 /* Assets.xcassets */; };
 		FF0F9BFD212B07FA00854FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0F9BFB212B07FA00854FD6 /* LaunchScreen.storyboard */; };
+		FF0F9C05212B0A3A00854FD6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0F9C04212B0A3A00854FD6 /* WebViewController.swift */; };
+		FF0F9C07212B0A6C00854FD6 /* WebView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0F9C06212B0A6C00854FD6 /* WebView2Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FF0F9BF9212B07FA00854FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF0F9BFC212B07FA00854FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF0F9BFE212B07FA00854FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0F9C04212B0A3A00854FD6 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		FF0F9C06212B0A6C00854FD6 /* WebView2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView2Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FF0F9BF9212B07FA00854FD6 /* Assets.xcassets */,
 				FF0F9BFB212B07FA00854FD6 /* LaunchScreen.storyboard */,
 				FF0F9BFE212B07FA00854FD6 /* Info.plist */,
+				FF0F9C04212B0A3A00854FD6 /* WebViewController.swift */,
+				FF0F9C06212B0A6C00854FD6 /* WebView2Controller.swift */,
 			);
 			path = Swift4WebView;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF0F9BF5212B07F600854FD6 /* ViewController.swift in Sources */,
+				FF0F9C05212B0A3A00854FD6 /* WebViewController.swift in Sources */,
+				FF0F9C07212B0A6C00854FD6 /* WebView2Controller.swift in Sources */,
 				FF0F9BF3212B07F600854FD6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
